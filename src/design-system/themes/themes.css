@@ -1,0 +1,30 @@
+[data-theme="dark"] {
+  --color-background-base: #0F1115;
+  --color-surface-card: #1A1D23;
+  --color-surface-folder: #161920;
+  --color-surface-hover: #22262E;
+
+  --color-text-primary: #E6E8EB;
+  --color-text-secondary: #A1A6B0;
+
+  --color-accent: #10B981;
+  --color-accent-soft: rgba(16, 185, 129, 0.25);
+
+  --color-border-subtle: #2A2F38;
+}
+
+[data-theme="light"] {
+  --color-background-base: #EEF1F4;
+  --color-surface-card: #FFFFFF;
+  --color-surface-hover: #E8EDF2;
+
+  --color-text-primary: #111418;
+  --color-text-secondary: #6B7280;
+
+  --color-accent: #059669;
+  --color-accent-soft: rgba(5, 150, 105, 0.15);
+
+  --color-border-subtle: #DDE2E8;
+}
+
+

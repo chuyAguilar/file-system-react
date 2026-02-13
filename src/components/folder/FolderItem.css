@@ -1,0 +1,58 @@
+.folder-card {
+  cursor: pointer;
+  padding: var(--spacing-2);
+  padding-top: var(--spacing-3);
+}
+
+.folder-content {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+}
+
+.folder-icon {
+  font-size: 22px;
+}
+
+.folder-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.folder-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.folder-actions {
+  display: flex;
+  gap: var(--spacing-2);
+}
+
+.folder-actions button {
+  background: transparent;
+  border: none;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: var(--motion-standard);
+}
+
+.folder-actions button:hover {
+  color: var(--color-text-primary);
+}
+
+.folder-input {
+  background: var(--color-background-base);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-1);
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+.folder-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
